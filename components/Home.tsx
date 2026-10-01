@@ -39,6 +39,7 @@ export default function Home() {
       <div className="mt-6 flex flex-wrap gap-3">
         <Link href="/learn/approach" className="btn btn-primary !px-5 !py-2.5 !text-base">Start with the approach →</Link>
         <Link href="/quiz" className="btn !px-5 !py-2.5 !text-base">Take a mock quiz</Link>
+        <Link href="/eli3" className="btn !px-5 !py-2.5 !text-base">Explain like I&apos;m 3 🧸</Link>
       </div>
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

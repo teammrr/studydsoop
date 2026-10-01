@@ -35,6 +35,7 @@ export default function Sidebar() {
       <div className="mt-4 mb-1 px-3 text-[0.7rem] font-bold uppercase tracking-widest muted">Practice</div>
       {link("/code-lab", "Code Lab (build it)")}
       {link("/quiz", "Quiz Lab (mock quiz)")}
+      {link("/eli3", "Explain like I'm 3 🧸")}
       {link("/cheatsheet", "Cheat sheet")}
     </nav>
   );
