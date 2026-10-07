@@ -33,6 +33,7 @@ export default function Sidebar() {
         link(`/learn/${l.slug}`, `${i + 1}. ${l.title.replace("How to Attack an Algorithm Problem", "The Approach")}`, p.done[l.slug] ? <span style={{ color: "var(--good)" }}>✓</span> : null),
       )}
       <div className="mt-4 mb-1 px-3 text-[0.7rem] font-bold uppercase tracking-widest muted">Practice</div>
+      {link("/bootcamp", "Quiz 1 Bootcamp ⚡")}
       {link("/code-lab", "Code Lab (build it)")}
       {link("/quiz", "Quiz Lab (mock quiz)")}
       {link("/eli3", "Explain like I'm 3 🧸")}
